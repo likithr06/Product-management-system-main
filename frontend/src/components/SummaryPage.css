@@ -1,0 +1,54 @@
+.main-div{
+    background-color: rgb(224, 217, 217);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 90px;
+    width: 1350px;
+    height: 400px;
+    border: solid #f1f1f1ff 1px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(112, 111, 111);
+    
+}
+
+.ag-theme-quartz-dark{
+    width: 1300px;
+    height: 350px;
+    border: "solid black 2px";
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.action-icons i{
+    border:#ffffff solid 1px ;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icons-info-div{
+    width: 100px;
+    margin-top: 30px;
+    margin-right: 120px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icons-info-div i{
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.icons-info-div p{
+    font-size: 20px;
+}
+.text-center{
+    justify-content: center;
+}

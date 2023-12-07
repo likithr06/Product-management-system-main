@@ -1,0 +1,101 @@
+.form-container{
+    background-color: rgb(224, 217, 217);
+    width: 600px;
+    margin: auto;
+    height: max-content;
+    border: solid #f1f1f1ff 1px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgb(112, 111, 111);
+    margin-top: 90px;
+    font-size: 30px;
+}
+
+.name-container,.description-container,.price-container,.quantity-container,.category-container{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 434px;
+    margin: auto;
+    margin-top: 9px;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+input,select{
+    border: solid #fff 1px;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 35px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.names div{
+    height:35px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+}
+
+.inputfields div{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+
+select{
+    width: 264.8px;
+    padding: 0px 6px 0px 6px ;
+}
+
+input:focus,select:focus{
+    outline: none;
+}
+
+.save-btn{
+    background-color: #2E7D32;
+    border: none;
+    border-radius: 4px;
+    width: 90px;
+    height: 36.5px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.save-btn:hover{
+    background-color: rgb(0, 114, 0);
+}
+
+.cancel-btn{
+    color: #D32F2F;
+    background-color: #fae0e0;
+    border: solid #D32F2F 1px;
+    border-radius: 4px;
+    font-size: 15px;
+    width: 90px;
+    height: 36.2px;
+    cursor: pointer;
+}
+.cancel-btn:hover{
+    background-color: #eebfbf;
+}
+
+.disable-save-btn{
+    background-color: lightgreen;
+    cursor: not-allowed;
+    border: none;
+    border-radius: 4px;
+    width: 90px;
+    height: 36.5px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+select{
+    font-family: 'Times New Roman', Times, serif;
+}
